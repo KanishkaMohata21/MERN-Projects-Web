@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #feece2;
+  color: #265073;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navitems {
+  display: flex;
+  flex-direction: row;
+  margin-right: 500px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.navitems li {
+  margin: 0px 20px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navitems li a {
+  text-decoration: none;
+}
+
+.navitems li a:hover {
+  color: #265073;   
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-container {
+  margin: 45px;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #FEECE2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.add-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  width: 500px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.3rem;
+  background-color: #FEFBF6;
+  border: 2px solid #E2BFB3;
+  border-radius: 8px;
+}
+
+.description{
+  width: 500px;
+  min-height: 150px;
+  padding: 5px;
+  font-size: 1.3rem;
+  background-color: #FEFBF6;
+  border: 2px solid #E2BFB3;
+  border-radius: 8px;
+}
+
+.btn{
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  background-color: #FFBE98;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.3rem;
+}
+
+.homeContainer{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.thoughts{
+  margin: 20px;
+  color: #265073;
+}
+
+.blog {
+  /* border: 2px solid black; */
+  font-size: 1.2rem;
+  padding: 25px;
+  line-height: 1.2; 
+  text-align: justify;
+  margin: 10px;
+  background-color: #FEECE2;
+  color: #265073;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  border: 2px solid #E2BFB3;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home-title{
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.icons{
+  align-self: flex-end;
+  margin: 0px 30px;
+}
+
+.edit{
+  padding:0px 20px;
+}
+
+.no-blogs{
+  width: 500px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.3rem;
+  background-color: #FEFBF6;
+  border: 2px solid #E2BFB3;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
