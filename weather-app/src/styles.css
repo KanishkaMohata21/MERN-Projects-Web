@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 410px;
+    background-color: #50727B;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.inpt-search{
+    width: 380px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+
+.btn{
+    width: 90px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.otherinfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.Weather,.Humidity,.Wind-Speed{
+    text-align: center;
+}
+
+.country{
+    font-size: 1.6rem;
+}
+.date{
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+.temparature{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px;
+}
