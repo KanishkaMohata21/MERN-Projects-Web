@@ -18,7 +18,7 @@ const NewsList = () => {
   useEffect(() => {
     const fetchNews = async () => {
       setLoading(true); // Start loading
-      let url = `https://gnews.io/api/v4/top-headlines?lang=en&token=caf22e3927c77288036620314ab53466`;
+      let url = `https://gnews.io/api/v4/top-headlines?lang=en&token=API_KEY`;
       if (search) {
         url += `&q=${search}`;
       }
